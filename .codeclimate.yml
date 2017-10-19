@@ -6,11 +6,13 @@ engines:
   sonar-java:
     enabled: true
     channel: beta
+    config:
+      sonar.sourceEncoding: us-ascii
 ratings:
   paths:
     - "**.java"
 exclude_paths:
-  - "**.jpeg"
+  - "**/*.jpeg"
   - "**.js"
   - "**.jsx"
   - "**.rb"
