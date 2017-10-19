@@ -13,7 +13,4 @@ ratings:
     - "**.java"
 exclude_paths:
   - "**/*.jpeg"
-  - "**.js"
-  - "**.jsx"
-  - "**.rb"
-  - "**.py"
+  - "**/*.p12"
